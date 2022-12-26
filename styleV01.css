@@ -1,0 +1,94 @@
+body,
+html {
+  background-color: rgb(49, 236, 255);
+  background: linear-gradient(
+    344deg,
+    rgba(49, 236, 255, 1) 0%,
+    rgba(235, 177, 50, 0.8687850140056023) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box1 {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.Login {
+  color: rgb(24, 29, 44);
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 33px;
+}
+
+.name {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  margin: 30px 45px 0px 45px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.name:focus {
+  outline: none;
+}
+
+.pass {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  margin: 50px 45px 0px 45px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.forgot > a {
+  color: gray;
+  text-decoration: none;
+}
+.forgot {
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.easy {
+  background-color: rgb(15, 140, 212);
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  width: 80%;
+  margin: 25px 50px 20px 50px;
+  padding: 20px;
+}
+
+.easy:hover {
+  background-color: rgb(86, 86, 209);
+}
+
+.mm {
+  color: gray;
+  margin-top: 13px;
+  margin-left: 145px;
+  display: inline;
+}
+
+.sign{
+    display: inline;
+    color: rgb(14, 174, 248);
+
+}
+.sign > a{
+    text-decoration: none;
+}
